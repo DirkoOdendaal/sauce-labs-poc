@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test.legacy.rdc.android.eu": "REGION=eu DATE=\"$(date)\" nightwatch --config tests/configs/nightwatch.conf.js --env androidChrome",
+    "test.legacy.rdc.ios.eu": "REGION=eu DATE=\"$(date)\" nightwatch --config tests/configs/nightwatch.conf.js --env iosSafari",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nightwatch": "^1.3.6",
+    "node-fetch": "^2.6.0"
+  }
+}

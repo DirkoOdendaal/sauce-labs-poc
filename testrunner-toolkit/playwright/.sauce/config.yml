@@ -1,0 +1,15 @@
+apiVersion: v1
+metadata:
+  name: Playwright and Jest Sauce Labs
+  tags:
+    - e2e
+    - release team
+    - other tag
+      build: Release Playwright
+files:
+  - ./test/
+image:
+  base: saucelabs/stt-playwright-jest-node
+  version: latest
+sauce:
+  region: eu-central-1

@@ -1,0 +1,15 @@
+
+apiVersion: v1
+metadata:
+  name: Feature XYZ
+  tags:
+    - e2e
+    - release team
+    - other tag
+  build: Release Puppeteer
+files:
+  - ./tests/login.spec.js
+image:
+  base: saucelabs/stt-puppeteer-jest-node
+  version: latest
+region: eu-central-1

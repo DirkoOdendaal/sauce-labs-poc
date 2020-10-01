@@ -1,0 +1,16 @@
+
+apiVersion: v1
+metadata:
+  name: Feature XYZ
+  tags:
+    - e2e
+    - release team
+    - other tag
+      build: Release Cypress
+files:
+  - ./tests/*.spec.js
+image:
+  base: saucelabs/stt-cypress-mocha-node
+  version: latest
+sauce:
+  region: eu-central-1
