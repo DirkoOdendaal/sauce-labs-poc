@@ -43,7 +43,7 @@ exports.config = {
     framework: 'jasmine',
     reporters: ['spec'],
     services: [],
-    hostname: 'testingcloud.perfectomobile.com',
-    path: '/nexperience/perfectomobile/wd/hub/fast',
-    port: 80
+    // hostname: 'testingcloud.perfectomobile.com',
+    // path: '/nexperience/perfectomobile/wd/hub/fast',
+    // port: 80
 };
